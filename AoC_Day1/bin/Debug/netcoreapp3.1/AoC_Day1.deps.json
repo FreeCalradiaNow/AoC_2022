@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "AoC_Day1/1.0.0": {
+        "dependencies": {
+          "AoC_Shared": "1.0.0"
+        },
+        "runtime": {
+          "AoC_Day1.dll": {}
+        }
+      },
+      "AoC_Shared/1.0.0": {
+        "runtime": {
+          "AoC_Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AoC_Day1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AoC_Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
