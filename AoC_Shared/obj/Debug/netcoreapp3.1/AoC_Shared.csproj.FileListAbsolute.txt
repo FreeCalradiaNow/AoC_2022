@@ -9,3 +9,4 @@ F:\TrainingGIT\AoC_2022\AoC_Shared\obj\Debug\netcoreapp3.1\AoC_Shared.dll
 F:\TrainingGIT\AoC_2022\AoC_Shared\obj\Debug\netcoreapp3.1\AoC_Shared.pdb
 F:\TrainingGIT\AoC_2022\AoC_Shared\bin\Debug\netcoreapp3.1\Resources.cs
 F:\TrainingGIT\AoC_2022\AoC_Shared\bin\Debug\netcoreapp3.1\ConsoleAppearance.cs
+F:\TrainingGIT\AoC_2022\AoC_Shared\obj\Debug\netcoreapp3.1\AoC_Shared.csproj.AssemblyReference.cache

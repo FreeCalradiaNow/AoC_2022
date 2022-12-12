@@ -13,9 +13,9 @@ namespace AoC_2022.AoC_Day1
             
             Con.ConsoleOptic();
 
-            Pre.Input();
-            Pre.MakeList();
-            Pre.MakeList();
+            Pre.GetFilePath();
+            Pre.AddStringToList();
+            Pre.Makearray();
 
             Pro.SumUp();
             Pro.Compare();

@@ -1,7 +1,8 @@
 ﻿using System;
 using Res = AoC_2022.AoC_Shared.Resources.TextResources;
 using Con = AoC_2022.AoC_Shared.ConsoleAppearance.ConsoleAppearance;
-using AoC_2022.AoC_Day1.Prepare;
+using Pre = AoC_2022.AoC_Day1.Prepare.PrepareData;
+using Pro = AoC_2022.AoC_Day1.Process.ProcessData;
 
 namespace AoC_2022.AoC_Day1
 {
@@ -12,8 +13,14 @@ namespace AoC_2022.AoC_Day1
             
             Con.ConsoleOptic();
 
-            PrepareData.Input();
+            Pre.GetFilePath();
+            Pre.AddStringToList();
+            Pre.Makearray();
 
+            Pro.SumUp();
+            Pro.Compare();
+            Pro.Pick();
+            Pro.PutOut();
 
         }
     }
