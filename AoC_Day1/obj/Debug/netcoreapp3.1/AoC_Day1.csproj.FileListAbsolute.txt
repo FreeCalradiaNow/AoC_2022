@@ -4,6 +4,9 @@ F:\TrainingGIT\AoC_2022\AoC_Day1\obj\Debug\netcoreapp3.1\AoC_Day1.AssemblyInfoIn
 F:\TrainingGIT\AoC_2022\AoC_Day1\obj\Debug\netcoreapp3.1\AoC_Day1.AssemblyInfo.cs
 F:\TrainingGIT\AoC_2022\AoC_Day1\obj\Debug\netcoreapp3.1\AoC_Day1.csproj.CoreCompileInputs.cache
 F:\TrainingGIT\AoC_2022\AoC_Day1\bin\Debug\netcoreapp3.1\AoC_Day1.exe
+F:\TrainingGIT\AoC_2022\AoC_Day1\bin\Debug\netcoreapp3.1\ConsoleAppearance.cs
+F:\TrainingGIT\AoC_2022\AoC_Day1\bin\Debug\netcoreapp3.1\Resources.cs
+F:\TrainingGIT\AoC_2022\AoC_Day1\bin\Debug\netcoreapp3.1\MainDay1.cs
 F:\TrainingGIT\AoC_2022\AoC_Day1\bin\Debug\netcoreapp3.1\AoC_Day1.deps.json
 F:\TrainingGIT\AoC_2022\AoC_Day1\bin\Debug\netcoreapp3.1\AoC_Day1.runtimeconfig.json
 F:\TrainingGIT\AoC_2022\AoC_Day1\bin\Debug\netcoreapp3.1\AoC_Day1.runtimeconfig.dev.json
@@ -15,6 +18,3 @@ F:\TrainingGIT\AoC_2022\AoC_Day1\obj\Debug\netcoreapp3.1\AoC_Day1.csproj.CopyCom
 F:\TrainingGIT\AoC_2022\AoC_Day1\obj\Debug\netcoreapp3.1\AoC_Day1.dll
 F:\TrainingGIT\AoC_2022\AoC_Day1\obj\Debug\netcoreapp3.1\AoC_Day1.pdb
 F:\TrainingGIT\AoC_2022\AoC_Day1\obj\Debug\netcoreapp3.1\AoC_Day1.genruntimeconfig.cache
-F:\TrainingGIT\AoC_2022\AoC_Day1\bin\Debug\netcoreapp3.1\ConsoleAppearance.cs
-F:\TrainingGIT\AoC_2022\AoC_Day1\bin\Debug\netcoreapp3.1\Resources.cs
-F:\TrainingGIT\AoC_2022\AoC_Day1\bin\Debug\netcoreapp3.1\MainDay1.cs

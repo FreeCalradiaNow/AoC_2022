@@ -1,3 +1,5 @@
+F:\TrainingGIT\AoC_2022\AoC_Shared\bin\Debug\netcoreapp3.1\ConsoleAppearance.cs
+F:\TrainingGIT\AoC_2022\AoC_Shared\bin\Debug\netcoreapp3.1\Resources.cs
 F:\TrainingGIT\AoC_2022\AoC_Shared\bin\Debug\netcoreapp3.1\AoC_Shared.deps.json
 F:\TrainingGIT\AoC_2022\AoC_Shared\bin\Debug\netcoreapp3.1\AoC_Shared.dll
 F:\TrainingGIT\AoC_2022\AoC_Shared\bin\Debug\netcoreapp3.1\AoC_Shared.pdb
@@ -7,6 +9,4 @@ F:\TrainingGIT\AoC_2022\AoC_Shared\obj\Debug\netcoreapp3.1\AoC_Shared.AssemblyIn
 F:\TrainingGIT\AoC_2022\AoC_Shared\obj\Debug\netcoreapp3.1\AoC_Shared.csproj.CoreCompileInputs.cache
 F:\TrainingGIT\AoC_2022\AoC_Shared\obj\Debug\netcoreapp3.1\AoC_Shared.dll
 F:\TrainingGIT\AoC_2022\AoC_Shared\obj\Debug\netcoreapp3.1\AoC_Shared.pdb
-F:\TrainingGIT\AoC_2022\AoC_Shared\bin\Debug\netcoreapp3.1\Resources.cs
-F:\TrainingGIT\AoC_2022\AoC_Shared\bin\Debug\netcoreapp3.1\ConsoleAppearance.cs
 F:\TrainingGIT\AoC_2022\AoC_Shared\obj\Debug\netcoreapp3.1\AoC_Shared.csproj.AssemblyReference.cache

@@ -1,30 +1,34 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using System.IO;
+using System.Linq;
+using Pre = AoC_2022.AoC_Day1.Input.Input;
 
 namespace AoC_2022.AoC_Day1.Process
 {
-    // sums up each list in array, compares sums then, then picks highest sum, finally gives sum out
     public class ProcessData
     {
-        internal static void SumUp() //TODO: nameing anpassen
-        {
-            //
-        }
+        public int[] Input;
 
-        internal static void Compare() //TODO: nameing anpassen
-        {
-            //
-        }
-
-        internal static void Pick() //TODO: nameing anpassen
-        {
-            //
-        }
-
-        internal static void PutOut() //TODO: nameing anpassen
-        {
-            //
-        }
+       //public ref int ArrayDataUp(string FilePath)
+        //{
+        //    
+        //    Input = File.ReadAllText(Pre.FilePath)
+        //        .Split("\r\n\r\n", StringSplitOptions.None)
+        //        .Select(elf => elf.Split("\r\n", StringSplitOptions.RemoveEmptyEntries)
+        //            .Select(int.Parse)
+        //            .ToArray()
+        //        )
+        //        .ToArray();
+        //    return ref input;
+        //}
+        //
+        //public static int BigPockets;
+        //internal int Compare(int[] input, int BigPockets)
+        //{
+        //    int result = Input.Select(elf => elf.Sum()).Max();
+        //    result = BigPockets;
+        //    Console.WriteLine(BigPockets);
+        //}
+        //
     }
 }
