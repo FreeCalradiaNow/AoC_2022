@@ -3,12 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32802.440
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AoC_Day1", "AoC_Day1\AoC_Day1.csproj", "{FC3E7811-622A-486E-B582-A89320567170}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AoC_MainEvents", "AoC_Day1\AoC_MainEvents.csproj", "{FC3E7811-622A-486E-B582-A89320567170}"
 	ProjectSection(ProjectDependencies) = postProject
 		{F7616125-D6B0-465D-B7BF-6383A733E7D1} = {F7616125-D6B0-465D-B7BF-6383A733E7D1}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AoC_Shared", "AoC_Shared\AoC_Shared.csproj", "{F7616125-D6B0-465D-B7BF-6383A733E7D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AoC_Shared", "AoC_Shared\AoC_Shared.csproj", "{F7616125-D6B0-465D-B7BF-6383A733E7D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

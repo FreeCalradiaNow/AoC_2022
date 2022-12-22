@@ -1,9 +1,9 @@
 ﻿using System;
 using System.IO;
 using System.Linq;
-using Pre = AoC_2022.AoC_Day1.Input.Input;
+using Pre = AoC_2022.AoC_MainEvents.Input.Input;
 
-namespace AoC_2022.AoC_Day1.Process
+namespace AoC_2022.AoC_MainEvents.Process
 {
     public class ProcessData
     {

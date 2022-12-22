@@ -33,9 +33,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\TrainingGIT\\AoC_2022\\AoC_Day1\\AoC_Day1.csproj",
-      "projectName": "AoC_Day1",
-      "projectPath": "F:\\TrainingGIT\\AoC_2022\\AoC_Day1\\AoC_Day1.csproj",
+      "projectUniqueName": "F:\\TrainingGIT\\AoC_2022\\AoC_Day1\\AoC_MainEvents.csproj",
+      "projectName": "AoC_MainEvents",
+      "projectPath": "F:\\TrainingGIT\\AoC_2022\\AoC_Day1\\AoC_MainEvents.csproj",
       "packagesPath": "C:\\Users\\M.Witzik\\.nuget\\packages\\",
       "outputPath": "F:\\TrainingGIT\\AoC_2022\\AoC_Day1\\obj\\",
       "projectStyle": "PackageReference",
@@ -90,7 +90,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.415\\RuntimeIdentifierGraph.json"
       }
     }
   }
