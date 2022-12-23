@@ -4,61 +4,92 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using Res = AoC_2022.AoC_Shared.Resources.TextResources;
+using Pth = AoC_2022.AoC_Shared.Resources.FixTestPaths;
 using Boss = AoC_2022.AoC_MainEvents.AdventMainEvents;
+using AoC_MainEventsAoC_2022.AoC_MainEvents.Puzzle;
+using Jun = AoC_2022.AoC_MainEvents.Junk.JunkYard;
+using Con = AoC_2022.AoC_Shared.ConsoleAppearance.ConsoleAppearance;
 
 namespace AoC_2022.AoC_MainEvents.Input
 {
-    public class Input
+    public class Input : Puzzle
     {
+        // new object of Puzzle that its properties can be used
+        Puzzle _1 = new Puzzle();
 
-        public static string FilePath;
-        public static string[] lines;
+        // asks user for the day choise and gives it back
+        public static int DayChoiceInput()
+        {
+            Puzzle.Choice = 0;
+            int _choiceHelper = 0; //[Puzzle.Choice] cant be used with [out] when parsing in while loop
 
+           
+                
 
-        // Demands, gets, checks and gives back the day choise input
-        internal static int DayChoiceInput()
-        {             
-            
-            Boss.choice = 0;
-            Console.Write(Res.InfilInfo);
+            Console.WriteLine(Res.InfilInfo);
 
             string input = Console.ReadLine();
 
-            while (input.Length > 2 || input.Length < 1 || !int.TryParse(input, out Boss.choice) ||
-                  Boss.choice < 1 || Boss.choice >= 25)
+            // while input isnt a # in range 1 to 24 loop keeps asking for proper input
+            //TODO: implement opt out off loop for user
+            while (input.Length > 2 || input.Length < 1 || !int.TryParse(input, out _choiceHelper) ||
+                  _choiceHelper < 1 || _choiceHelper >= 25)
             {
-                Console.WriteLine(Res.InputError + Res.InfilInfo);
+                Console.WriteLine(Res.InputError);
+                Console.ReadKey();
+                Console.Clear();
+                Console.WriteLine(Res.InfilInfo); //TODO: this is text res of main menu, not with funct of it - keep in mind once orig main menu got more opts 
 
                 input = Console.ReadLine();
             }
+            Puzzle.Choice = _choiceHelper;
+            Console.Clear();
+            Console.WriteLine(Res.InputPickedDay, Puzzle.Choice);
+            Console.ReadKey();
+            Console.Clear();
+            return Puzzle.Choice;
 
-            return Boss.choice;
-            
         }
 
-        // shows instructions and gets filepath
-        internal static void GetFilePath()
+        // gets filepath from user
+        public static string GetFilePath()
         {
-            //do
-            //{
-            //    Console.Clear();
-            //    Console.WriteLine(Res.DemandPath + "\n" + Res.InfoPathFormat + "\n" + Res.IndicatorInput);
-            // FilePath = Console.ReadLine();
-            //} while (FilePath == "");
-            FilePath = @"C:\Users\M.Witzik\Desktop\aocd1.txt";
-            var Input = File.ReadAllText(FilePath)
-                .Split("\r\n\r\n", StringSplitOptions.None)
-                .Select(elf => elf.Split("\r\n", StringSplitOptions.RemoveEmptyEntries)
-                    .Select(int.Parse)
-                    .ToArray()
-                )
-                .ToArray();
-            var Output = Input.Select(elf => elf.Sum()).ToList();
-            Output.Sort();
-            //Output.Reverse();
-            foreach (int i in Output)
-            Console.WriteLine(i);
-            Console.ReadLine();
+            
+            Puzzle.FilePath = "";
+
+            if (Jun.debugMode == true)
+            {
+                switch (Puzzle.Choice)
+                {
+                    case 1:
+                        Puzzle.FilePath = Pth.Day1_b_wrk_0224; //day 1 - fix path for testing
+                        break;
+                    case 2:
+                        Puzzle.FilePath = Pth.Day2_b_wrk_0224; //day 2 - fix path for testing
+                        break;
+                    default:
+                        break;
+                }
+            }
+            else
+            {            
+                while (Puzzle.FilePath == "")
+                    {
+                        Console.Clear();
+                        Console.WriteLine(Res.DemandPath + "\n" + Res.InfoPathFormat + "\n" + Res.IndicatorInput);
+                        Puzzle.FilePath = Console.ReadLine();
+                    }                  
+            }   
+            
+            Console.WriteLine(Res.ApprovePath + "\n\n");
+            Console.Clear();
+
+            return Puzzle.FilePath;
         }
+
+
+       
+
+
     }
 }
