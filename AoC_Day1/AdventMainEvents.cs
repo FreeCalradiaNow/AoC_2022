@@ -25,23 +25,23 @@ namespace AoC_2022.AoC_MainEvents
         Begin:
             Pre.DayChoiceInput();
         
-        // day choice activates case with funttion set 
+        // day choice activates case with function set 
         //TODO: add cases as the functions got implemented
             switch (Puz.Choice)
             {
                 case 1: 
                     Pre.GetFilePath();
-                    Pro.Day1Function();
+                    Pro.Day01Function();
                     Jun.LitSwitchCase();
                     goto Begin;
                     
                 case 2:
                     Pre.GetFilePath();
-                    
+                    Pro.Day02.Day02Function();
 
 
 
-                    
+
                     Jun.LitSwitchCase();
                     goto Begin;
 
